@@ -18,6 +18,9 @@
 
 [Demos][demo-url] | [Documentation](./docs/README.md) | [Discord community](https://discord.gg/E6UthXZ)
 
+This is a copy of tradingview/lightweight-charts except with the added function of getbarSpacing(), suggested by triorr here: https://github.com/tradingview/lightweight-charts/issues/50#issuecomment-504787139
+This allows you to return the space between bars on charts, allowing them to be easily synced.
+
 TradingView Lightweight Charts are one of the smallest and fastest financial HTML5 charts.
 
 The Lightweight Charting Library is the best choice for you if you want to display financial data as an interactive chart on your web page without affecting your web page loading speed and performance.
