@@ -1,0 +1,207 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "signature": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/tslib/tslib.d.ts": {
+        "version": "61649aa5553c5eb196c297184d861a2428210a175f2763f4e2ef0bac3169c220",
+        "signature": "61649aa5553c5eb196c297184d861a2428210a175f2763f4e2ef0bac3169c220",
+        "affectsGlobalScope": false
+      },
+      "../helpers/strict-type-checks.d.ts": {
+        "version": "ac55a0f55e5610e7d56ef1bccdd4e1398dc3439da8f58df3482a65ee3c938b54",
+        "signature": "ac55a0f55e5610e7d56ef1bccdd4e1398dc3439da8f58df3482a65ee3c938b54",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/formatters/iformatter.ts": {
+        "version": "b1abf1f1fd74f7e102f5e3d84422306aeb47e597017d06b839a98de7d8319cbf",
+        "signature": "bd45d7d91e138a9e6fb6ba14078670604bd9ea74b79d6cccb7a02ccbdbf2c508",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/formatters/price-formatter.ts": {
+        "version": "5e952bb18b8800b6abcf1df2f2622243228c918395d41db83f81efdaa2bea85c",
+        "signature": "6712c5184722b19110deea561680e77485b7f7083db9febd6fe79e40fc42de2b",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/formatters/format-date.ts": {
+        "version": "5ca0898332f130f1f26706d8e2eb07307f5a3a9dc0dfe489bf7603b71dd72c33",
+        "signature": "d01a42cd938ceadd5d38490e4c427ba4e7b0a191b1b05b59e0b3ad4a683753f2",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/formatters/date-formatter.ts": {
+        "version": "f676e3a7a8aa6e354aa905bbabea6b3dcf3a42c15f42beb4d75f42498066ea5b",
+        "signature": "7f02f7f3acef59956bb1113b8b47af639270045b7e6587c0125608e13abe60a9",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/formatters/time-formatter.ts": {
+        "version": "37df05668b4e6128ef5f2ecb46f8127a215add26f3325f553e3f50948253545b",
+        "signature": "cc13ee0cdffaffc0014a6338b82d284f646ef0e2eff50928387d6bee5e6f21ee",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/formatters/date-time-formatter.ts": {
+        "version": "8dfcd863acd7464babca8e016306049e129e9c3268f9c3ab1548d42bc4f3a628",
+        "signature": "9677817026250ecb8c2d380b0108339091775172fa0fb1f9ad2ec12d9117ccdb",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/formatters/percentage-formatter.ts": {
+        "version": "bf9f19e4b5133b8f9ba32f197b18366864d502e6aabfaf4b2c71eb5624caa23e",
+        "signature": "5f939c1f464d9c7e4babd79d581955753e209ddc4e2d3675dc6282769dcd86b0",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/formatters/volume-formatter.ts": {
+        "version": "68f3924bab2a1b6fc0d8da20bcc016414c0eac38d397c7533dd5acf588c72a89",
+        "signature": "6f4bda5e86900339c2682eb8fc66e18c32ff1573abd3edac561102f32f33ff39",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/typings/_global-types/index.d.ts": {
+        "version": "d6070896405dfc9897ae2ec99a19814b861bef8195db408b7dbabb5316744e1c",
+        "signature": "d6070896405dfc9897ae2ec99a19814b861bef8195db408b7dbabb5316744e1c",
+        "affectsGlobalScope": true
+      }
+    },
+    "options": {
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "importHelpers": true,
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.es2015.collection.d.ts",
+        "lib.es2015.core.d.ts",
+        "lib.es2015.iterable.d.ts",
+        "lib.es2015.symbol.wellknown.d.ts",
+        "lib.es2016.array.include.d.ts",
+        "lib.es5.d.ts"
+      ],
+      "module": 99,
+      "moduleResolution": 2,
+      "noEmitOnError": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "preserveConstEnums": true,
+      "resolveJsonModule": true,
+      "rootDir": "../../../..",
+      "strict": true,
+      "stripInternal": false,
+      "target": 1,
+      "typeRoots": [
+        "../../../../src/typings",
+        "../../../../node_modules/@types"
+      ],
+      "types": [
+        "_global-types"
+      ],
+      "composite": true,
+      "outDir": "../..",
+      "configFilePath": "../../../../src/formatters/tsconfig.composite.json"
+    },
+    "referencedMap": {
+      "../../../../src/formatters/date-formatter.ts": [
+        "../../../../src/formatters/format-date.ts",
+        "../../../../src/formatters/iformatter.ts"
+      ],
+      "../../../../src/formatters/date-time-formatter.ts": [
+        "../../../../src/formatters/date-formatter.ts",
+        "../../../../src/formatters/iformatter.ts",
+        "../../../../src/formatters/time-formatter.ts"
+      ],
+      "../../../../src/formatters/format-date.ts": [
+        "../../../../src/formatters/price-formatter.ts"
+      ],
+      "../../../../src/formatters/percentage-formatter.ts": [
+        "../../../../src/formatters/price-formatter.ts"
+      ],
+      "../../../../src/formatters/price-formatter.ts": [
+        "../../../../src/formatters/iformatter.ts",
+        "../helpers/strict-type-checks.d.ts"
+      ],
+      "../../../../src/formatters/time-formatter.ts": [
+        "../../../../src/formatters/iformatter.ts",
+        "../../../../src/formatters/price-formatter.ts"
+      ],
+      "../../../../src/formatters/volume-formatter.ts": [
+        "../../../../src/formatters/iformatter.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../../../../src/formatters/date-formatter.ts": [
+        "../../../../src/formatters/iformatter.ts"
+      ],
+      "../../../../src/formatters/date-time-formatter.ts": [
+        "../../../../src/formatters/iformatter.ts"
+      ],
+      "../../../../src/formatters/percentage-formatter.ts": [
+        "../../../../src/formatters/price-formatter.ts"
+      ],
+      "../../../../src/formatters/price-formatter.ts": [
+        "../../../../src/formatters/iformatter.ts"
+      ],
+      "../../../../src/formatters/time-formatter.ts": [
+        "../../../../src/formatters/iformatter.ts"
+      ],
+      "../../../../src/formatters/volume-formatter.ts": [
+        "../../../../src/formatters/iformatter.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../helpers/strict-type-checks.d.ts",
+      "../../../../node_modules/tslib/tslib.d.ts",
+      "../../../../node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../src/formatters/date-formatter.ts",
+      "../../../../src/formatters/date-time-formatter.ts",
+      "../../../../src/formatters/format-date.ts",
+      "../../../../src/formatters/iformatter.ts",
+      "../../../../src/formatters/percentage-formatter.ts",
+      "../../../../src/formatters/price-formatter.ts",
+      "../../../../src/formatters/time-formatter.ts",
+      "../../../../src/formatters/volume-formatter.ts",
+      "../../../../src/typings/_global-types/index.d.ts"
+    ]
+  },
+  "version": "3.9.3"
+}

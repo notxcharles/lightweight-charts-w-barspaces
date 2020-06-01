@@ -1,0 +1,203 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "signature": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../../../../node_modules/tslib/tslib.d.ts": {
+        "version": "61649aa5553c5eb196c297184d861a2428210a175f2763f4e2ef0bac3169c220",
+        "signature": "61649aa5553c5eb196c297184d861a2428210a175f2763f4e2ef0bac3169c220",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/algorithms.ts": {
+        "version": "3e33681529481e0beaf81ff8a70e1abe5a2aef460639670a3c3acfa464cf289e",
+        "signature": "a68d9ea96f0206307502ca9cdc8c3b96e148295ec490003bbad364fb94aa6f4f",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/assertions.ts": {
+        "version": "2652fe7f6e78875e27f44de4f8768d6e3decf275657af443875ba9a4913359c8",
+        "signature": "e364286fe4e0fd5c67c08adf7337817b24ca6361ca9e1dd2571d0c1e7e4e7353",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/canvas-helpers.ts": {
+        "version": "e7c3124c4fcba4341da09b3ec96e23b40e344beba96e2ce51984151bf70c7ae4",
+        "signature": "768bfd6886c6f3fef7f49d5c9056f77840e150c8ef68e830eaeb436e495a752b",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/nominal.ts": {
+        "version": "395f370062c12ca3533879d0f017d451c4c5b923c4664e0044c4b36888692fea",
+        "signature": "a7c4055b123743ad8d39699f4e31f974cb977bc99cbb763e9b588fea2c520373",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/strict-type-checks.ts": {
+        "version": "214d64cab57e21f2939167675dda0cdf6d156149aa382ea866053419a7a77fee",
+        "signature": "ac55a0f55e5610e7d56ef1bccdd4e1398dc3439da8f58df3482a65ee3c938b54",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/color.ts": {
+        "version": "72756a6d4897468a965c4cde90077a4eafc5f0176365a9c623819ba3be9ede41",
+        "signature": "c9fc4e29b5a765d3912bd7439e6ab96ad838bbb9e5427f006806bfeff07955ec",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/isubscription.ts": {
+        "version": "7bf4b688bddb00e46015707f7de59922bd2a11db61715746ded5bf9b15aef69c",
+        "signature": "bbee65f80b76cab74e2cf149c2e039c2e3c54308f7906ebd8584c90df148f3b1",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/delegate.ts": {
+        "version": "0f584d95da8dc7fac5c1cd87bb0bed8b455402a3fcd7138ee1f83332e69a1c75",
+        "signature": "a8a59c2fdd716f7532d88de4c05876d0a8631cb09d46dbbfa6c03ed05a10278a",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/idestroyable.ts": {
+        "version": "eeeaf3345e1069eb6352bccef6440643f120185325ff2d44293dd376aa369abb",
+        "signature": "bd1cc6ffe78872b1fd8b1111188ba9bb2a9bcb445ba76618ab89b3732aad55a4",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/typings/_build-time-constants/index.d.ts": {
+        "version": "8d3dc6e3ed8827d6cafc114aad8200bbbf1fcc204f75423f4a5e7358bd57b239",
+        "signature": "8d3dc6e3ed8827d6cafc114aad8200bbbf1fcc204f75423f4a5e7358bd57b239",
+        "affectsGlobalScope": true
+      },
+      "../../../../src/helpers/logger.ts": {
+        "version": "20652b3d4b28d037ffe4e229768d17700c61cb8acb9ec616be027690e8433e6d",
+        "signature": "dafd3d7ecacb527c86739febea3250ff0e0e1199904c88a56317882a1d42586e",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/make-font.ts": {
+        "version": "0c4d09eb49fa571513f4f828812355dfcdb1c7205cd3c5bfc4f6255bfa826d97",
+        "signature": "27a213fa46475afa20901da923df4467d52b8d60d87bd9b6e7b3b8b353e5cc32",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/helpers/mathex.ts": {
+        "version": "5b3d321625d33f299713bd9d274540ec4b3c0fca16ca8f357eddf5171528fb93",
+        "signature": "27e83bae755e32c576a3298e0aa9b56784f8f162db8ce95a9bfc355f3654b96e",
+        "affectsGlobalScope": false
+      },
+      "../../../../src/typings/_global-types/index.d.ts": {
+        "version": "d6070896405dfc9897ae2ec99a19814b861bef8195db408b7dbabb5316744e1c",
+        "signature": "d6070896405dfc9897ae2ec99a19814b861bef8195db408b7dbabb5316744e1c",
+        "affectsGlobalScope": true
+      }
+    },
+    "options": {
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "importHelpers": true,
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.es2015.collection.d.ts",
+        "lib.es2015.core.d.ts",
+        "lib.es2015.iterable.d.ts",
+        "lib.es2015.symbol.wellknown.d.ts",
+        "lib.es2016.array.include.d.ts",
+        "lib.es5.d.ts"
+      ],
+      "module": 99,
+      "moduleResolution": 2,
+      "noEmitOnError": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "preserveConstEnums": true,
+      "resolveJsonModule": true,
+      "rootDir": "../../../..",
+      "strict": true,
+      "stripInternal": false,
+      "target": 1,
+      "typeRoots": [
+        "../../../../src/typings",
+        "../../../../node_modules/@types"
+      ],
+      "types": [
+        "_global-types"
+      ],
+      "composite": true,
+      "outDir": "../..",
+      "configFilePath": "../../../../src/helpers/tsconfig.composite.json"
+    },
+    "referencedMap": {
+      "../../../../src/helpers/color.ts": [
+        "../../../../src/helpers/nominal.ts",
+        "../../../../src/helpers/strict-type-checks.ts"
+      ],
+      "../../../../src/helpers/delegate.ts": [
+        "../../../../src/helpers/isubscription.ts"
+      ],
+      "../../../../src/helpers/logger.ts": [
+        "../../../../src/typings/_build-time-constants/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../../../../src/helpers/color.ts": [
+        "../../../../src/helpers/nominal.ts"
+      ],
+      "../../../../src/helpers/delegate.ts": [
+        "../../../../src/helpers/isubscription.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../../node_modules/tslib/tslib.d.ts",
+      "../../../../node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../src/helpers/algorithms.ts",
+      "../../../../src/helpers/assertions.ts",
+      "../../../../src/helpers/canvas-helpers.ts",
+      "../../../../src/helpers/color.ts",
+      "../../../../src/helpers/delegate.ts",
+      "../../../../src/helpers/idestroyable.ts",
+      "../../../../src/helpers/isubscription.ts",
+      "../../../../src/helpers/logger.ts",
+      "../../../../src/helpers/make-font.ts",
+      "../../../../src/helpers/mathex.ts",
+      "../../../../src/helpers/nominal.ts",
+      "../../../../src/helpers/strict-type-checks.ts",
+      "../../../../src/typings/_build-time-constants/index.d.ts",
+      "../../../../src/typings/_global-types/index.d.ts"
+    ]
+  },
+  "version": "3.9.3"
+}

@@ -1,0 +1,33 @@
+import { IDestroyable } from '../helpers/idestroyable';
+import { BarPrice } from '../model/bar';
+import { Coordinate } from '../model/coordinate';
+import { PriceLineOptions } from '../model/price-line-options';
+import { Series } from '../model/series';
+import { SeriesMarker } from '../model/series-markers';
+import { SeriesOptionsMap, SeriesPartialOptionsMap, SeriesType } from '../model/series-options';
+import { Range } from '../model/time-data';
+import { IPriceScaleApiProvider } from './chart-api';
+import { DataUpdatesConsumer, SeriesDataItemTypeMap, Time } from './data-consumer';
+import { IPriceLine } from './iprice-line';
+import { IPriceScaleApi } from './iprice-scale-api';
+import { BarsInfo, IPriceFormatter, ISeriesApi } from './iseries-api';
+export declare class SeriesApi<TSeriesType extends SeriesType> implements ISeriesApi<TSeriesType>, IDestroyable {
+    protected _series: Series<TSeriesType>;
+    protected _dataUpdatesConsumer: DataUpdatesConsumer<TSeriesType>;
+    private readonly _priceScaleApiProvider;
+    constructor(series: Series<TSeriesType>, dataUpdatesConsumer: DataUpdatesConsumer<TSeriesType>, priceScaleApiProvider: IPriceScaleApiProvider);
+    destroy(): void;
+    priceFormatter(): IPriceFormatter;
+    series(): Series<TSeriesType>;
+    priceToCoordinate(price: number): Coordinate | null;
+    coordinateToPrice(coordinate: number): BarPrice | null;
+    barsInLogicalRange(range: Range<number> | null): BarsInfo | null;
+    setData(data: SeriesDataItemTypeMap[TSeriesType][]): void;
+    update(bar: SeriesDataItemTypeMap[TSeriesType]): void;
+    setMarkers(data: SeriesMarker<Time>[]): void;
+    applyOptions(options: SeriesPartialOptionsMap[TSeriesType]): void;
+    options(): Readonly<SeriesOptionsMap[TSeriesType]>;
+    priceScale(): IPriceScaleApi;
+    createPriceLine(options: PriceLineOptions): IPriceLine;
+    removePriceLine(line: IPriceLine): void;
+}

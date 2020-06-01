@@ -1,0 +1,2036 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../../../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "signature": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "affectsGlobalScope": true
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../../../node_modules/tslib/tslib.d.ts": {
+        "version": "61649aa5553c5eb196c297184d861a2428210a175f2763f4e2ef0bac3169c220",
+        "signature": "61649aa5553c5eb196c297184d861a2428210a175f2763f4e2ef0bac3169c220",
+        "affectsGlobalScope": false
+      },
+      "./helpers/strict-type-checks.d.ts": {
+        "version": "ac55a0f55e5610e7d56ef1bccdd4e1398dc3439da8f58df3482a65ee3c938b54",
+        "signature": "ac55a0f55e5610e7d56ef1bccdd4e1398dc3439da8f58df3482a65ee3c938b54",
+        "affectsGlobalScope": false
+      },
+      "./helpers/nominal.d.ts": {
+        "version": "a7c4055b123743ad8d39699f4e31f974cb977bc99cbb763e9b588fea2c520373",
+        "signature": "a7c4055b123743ad8d39699f4e31f974cb977bc99cbb763e9b588fea2c520373",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/coordinate.ts": {
+        "version": "42ef2a0f8319bdef5ad3b9aa95d978bdf4a18ad1e6ae7cc4fce71389e8715aa9",
+        "signature": "af1af9d2aaf650ba5a1a8c3d154b3a930d1fc2d78fbe409c26bef7440d69cee6",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/draw-line.ts": {
+        "version": "b291f119e20b0a7d34687fe115cbf53d971f5ade7f8f7f81b23210c1476177fd",
+        "signature": "766b45f225fd02dc35abbf118853e6ac06d1ad27eaa5c2d76885fd8becef7ea8",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/bar.ts": {
+        "version": "edcb3c4dfdf578addb5fa3eee9d5061cf19c9568dfef183d36fce1ce1d7802eb",
+        "signature": "09b9def18799ab6112c3ef4f28ae7e65af917aeaa8083d34584ad7937004367c",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/price-formatter-fn.ts": {
+        "version": "e75ec3b9b501d7784874e07e7bce9b36f47ad3d2c1db67b105d0c96d25707a3a",
+        "signature": "9dfb0cddfc62702d4c7d5b3f45bcef5048620a229dd9ffa4561193cce7168d72",
+        "affectsGlobalScope": false
+      },
+      "./formatters/iformatter.d.ts": {
+        "version": "bd45d7d91e138a9e6fb6ba14078670604bd9ea74b79d6cccb7a02ccbdbf2c508",
+        "signature": "bd45d7d91e138a9e6fb6ba14078670604bd9ea74b79d6cccb7a02ccbdbf2c508",
+        "affectsGlobalScope": false
+      },
+      "./formatters/price-formatter.d.ts": {
+        "version": "6712c5184722b19110deea561680e77485b7f7083db9febd6fe79e40fc42de2b",
+        "signature": "6712c5184722b19110deea561680e77485b7f7083db9febd6fe79e40fc42de2b",
+        "affectsGlobalScope": false
+      },
+      "./formatters/percentage-formatter.d.ts": {
+        "version": "5f939c1f464d9c7e4babd79d581955753e209ddc4e2d3675dc6282769dcd86b0",
+        "signature": "5f939c1f464d9c7e4babd79d581955753e209ddc4e2d3675dc6282769dcd86b0",
+        "affectsGlobalScope": false
+      },
+      "./helpers/assertions.d.ts": {
+        "version": "e364286fe4e0fd5c67c08adf7337817b24ca6361ca9e1dd2571d0c1e7e4e7353",
+        "signature": "e364286fe4e0fd5c67c08adf7337817b24ca6361ca9e1dd2571d0c1e7e4e7353",
+        "affectsGlobalScope": false
+      },
+      "./helpers/isubscription.d.ts": {
+        "version": "bbee65f80b76cab74e2cf149c2e039c2e3c54308f7906ebd8584c90df148f3b1",
+        "signature": "bbee65f80b76cab74e2cf149c2e039c2e3c54308f7906ebd8584c90df148f3b1",
+        "affectsGlobalScope": false
+      },
+      "./helpers/delegate.d.ts": {
+        "version": "a8a59c2fdd716f7532d88de4c05876d0a8631cb09d46dbbfa6c03ed05a10278a",
+        "signature": "a8a59c2fdd716f7532d88de4c05876d0a8631cb09d46dbbfa6c03ed05a10278a",
+        "affectsGlobalScope": false
+      },
+      "../../../src/typings/_build-time-constants/index.d.ts": {
+        "version": "8d3dc6e3ed8827d6cafc114aad8200bbbf1fcc204f75423f4a5e7358bd57b239",
+        "signature": "8d3dc6e3ed8827d6cafc114aad8200bbbf1fcc204f75423f4a5e7358bd57b239",
+        "affectsGlobalScope": true
+      },
+      "./helpers/idestroyable.d.ts": {
+        "version": "bd1cc6ffe78872b1fd8b1111188ba9bb2a9bcb445ba76618ab89b3732aad55a4",
+        "signature": "bd1cc6ffe78872b1fd8b1111188ba9bb2a9bcb445ba76618ab89b3732aad55a4",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/text-width-cache.ts": {
+        "version": "bcf2a2980b009ee7dcba4a61a5366c59b3160cfcaead92e27def778dcae75107",
+        "signature": "96a19490e071134a3e26983b1ef6cb71b248f98d0448c7b4221aa0813fb2a483",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/iprice-axis-view-renderer.ts": {
+        "version": "2e6dac263e9bc00af4cba0e161d5f66e82235cce3113b780cbbe199697203d89",
+        "signature": "33b237640ae877ad20e003dbe8988f8881759cf319a39289a6857e48b51bda13",
+        "affectsGlobalScope": false
+      },
+      "./helpers/make-font.d.ts": {
+        "version": "27a213fa46475afa20901da923df4467d52b8d60d87bd9b6e7b3b8b353e5cc32",
+        "signature": "27a213fa46475afa20901da923df4467d52b8d60d87bd9b6e7b3b8b353e5cc32",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/price-axis-renderer-options-provider.ts": {
+        "version": "f277da272f9f965304376d86cc6acfc7a0323991c96e784fdede6a960fedd452",
+        "signature": "64a0ed166125bc9a8e587bb91219b8c7bebaeadec6e377158bbf527828e9c105",
+        "affectsGlobalScope": false
+      },
+      "./formatters/volume-formatter.d.ts": {
+        "version": "6f4bda5e86900339c2682eb8fc66e18c32ff1573abd3edac561102f32f33ff39",
+        "signature": "6f4bda5e86900339c2682eb8fc66e18c32ff1573abd3edac561102f32f33ff39",
+        "affectsGlobalScope": false
+      },
+      "./helpers/algorithms.d.ts": {
+        "version": "a68d9ea96f0206307502ca9cdc8c3b96e148295ec490003bbad364fb94aa6f4f",
+        "signature": "a68d9ea96f0206307502ca9cdc8c3b96e148295ec490003bbad364fb94aa6f4f",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/range-impl.ts": {
+        "version": "2bc7643c5023ba5761e1e3c19e48d14dbc508cf2d16b43f232ececa913db15a9",
+        "signature": "7916d7a29403f05a763f62369c135b3eacdaf9fa360a574a8091b52a051c873c",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/time-data.ts": {
+        "version": "a23269567f1049a0665fad8da66262254152288d9a461eed8b51a37904d782bd",
+        "signature": "f9e0308f42ab849624e8db2771c31f2fdb69eb814e871a2e1fafa5c8d51a0593",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/ipane-renderer.ts": {
+        "version": "1ea62f7b39db07028d8c194035e69e83799ba73002cf5f2913384ca1ff72cf0a",
+        "signature": "8f5df4cb618a0f0bb72c355d2c17571cb16a0db5ef94a577368d37d1c7fd3d77",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/scaled-renderer.ts": {
+        "version": "e9f0e7be206350e896d4bf1fec4e8394bc6d55c40bdf665e009866fbe203be3a",
+        "signature": "a155818cf8951226d3e2a5af0bc978138de2c057e443bc48f3a402b2b1f51e05",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/walk-line.ts": {
+        "version": "cd9249fc13280a3f8394e49b908a1ce59e14db1a1f5496b036db182aa0b1f532",
+        "signature": "e8ff74e958849a2ea819988cb7a94331709d39633bbfe9de0cb237efecd46416",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/line-renderer.ts": {
+        "version": "cba36d614f7a823117ecddf83dda346b9950aa8ec5a7dd1ca843278aa4892b9e",
+        "signature": "1f46b1d2b88f50728ed8e08b0bf293aa5a98e61b3ba16c4d919542e7e76dc57a",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/area-renderer.ts": {
+        "version": "cba303ab7fb320a82a816c5b4c79f34f88428332df6509084314fd46f7bf9a0d",
+        "signature": "b10422050a058cbdb428b72ef9f2725587544b4844ac2d865c66fe700c1d62df",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/composite-renderer.ts": {
+        "version": "0cd4627278ba211a3d1eb1a4e3217f2a31a4574bf47d88ee1ceb9baa45dd1aaf",
+        "signature": "ac7ead699c1179353df410936c8380fb752a3a472012e57fdc6cc45bb7dbfc9e",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/plot-data.ts": {
+        "version": "2197ac92e9b9de7761674e0bd26829382394d23b793dc240579aba80329c2e29",
+        "signature": "18c65d28105e60d63029726c01caf080b12a944720c24b521528fa30616d2d3f",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/plot-list.ts": {
+        "version": "68421ac51e0c12abfc6aae96658fcde7be71ec65998f4a2302646c9855c1d466",
+        "signature": "6651acd5e0e1c7e9a9de5aee3f9b07afafa5fc97a649e3a5d27bcd2d08883ccd",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/series-data.ts": {
+        "version": "f697ef47e078deeadd7d563b0ce9b302784d227fbe47a63a53aeb7182ddbf115",
+        "signature": "f2e595c596bd04b0a60653d8517fc6f58d9e3ae4e414006b4f6bf9c85fa2470d",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/series-bar-colorer.ts": {
+        "version": "657717f778723c85afd14e622aafce6b23aeee361febc0f1dac816c610a2d97d",
+        "signature": "17a041d46b535fba53cf0f6f07b5a11e3b32e3e9e479072bb4b8d7a153505848",
+        "affectsGlobalScope": false
+      },
+      "./formatters/date-formatter.d.ts": {
+        "version": "7f02f7f3acef59956bb1113b8b47af639270045b7e6587c0125608e13abe60a9",
+        "signature": "7f02f7f3acef59956bb1113b8b47af639270045b7e6587c0125608e13abe60a9",
+        "affectsGlobalScope": false
+      },
+      "./formatters/date-time-formatter.d.ts": {
+        "version": "9677817026250ecb8c2d380b0108339091775172fa0fb1f9ad2ec12d9117ccdb",
+        "signature": "9677817026250ecb8c2d380b0108339091775172fa0fb1f9ad2ec12d9117ccdb",
+        "affectsGlobalScope": false
+      },
+      "./helpers/mathex.d.ts": {
+        "version": "27e83bae755e32c576a3298e0aa9b56784f8f162db8ce95a9bfc355f3654b96e",
+        "signature": "27e83bae755e32c576a3298e0aa9b56784f8f162db8ce95a9bfc355f3654b96e",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/formatted-labels-cache.ts": {
+        "version": "c23d26e73d5313a480cefcf9816e2b12f9f030e5eb44a6e44ce0af2ea3aec011",
+        "signature": "dbec7bb625c6e785212eae96a4561d6ad75149d79e6dcabf9de5fc235a657cae",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/localization-options.ts": {
+        "version": "146163164c18972f22602ffced0d7b4ddbc6049cfe5f4322dd66987c0bb1d3fb",
+        "signature": "0b82db628de3bc903eeb2633adcceac1d2b776081524cdb38a40d6794aa95383",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/tick-marks.ts": {
+        "version": "0832b2a3e363dd6d904e908d6a9315f3e281d7f0ab79f88ee9264a2427c1d940",
+        "signature": "e4ab85d9c6018170e1471c491c50fbbda0668cd0e3455dbef927d31e23c12445",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/time-points.ts": {
+        "version": "ab6235da9e401e394fdbd7c6ccbac596d95cd0c6e83011201a908a8ec77500c9",
+        "signature": "d3a2250e19cc6fbd8fc67333525b591a810b4dec8dbcf9225f59645b070c65ae",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/time-scale-visible-range.ts": {
+        "version": "ae434fac5110c533e6e3602b18205e21405568277c92726a303cbb6bb30a4f47",
+        "signature": "2e62d3beb65bce6d1e08c9b5a239aa26c8ed9d87c8f85667e64c0916c7ff482a",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/time-scale.ts": {
+        "version": "8478cc089f4497dfda2efe28ac537723df0a7ae0a0292f44867d5e2f03034102",
+        "signature": "4d3ecf77123cc6526358d1dcc5598d30a1188b43c5d44d93e0f62f7a7b303f93",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/ipane-view.ts": {
+        "version": "cc06b8457f39ecac297abbe259e5eede6f3daa03c1dc2237482d23b254a0fd89",
+        "signature": "643a76c3e22a031b46a3fa199e2af12d70d5a6d54a123bac4d473491846f10b3",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/iupdatable-pane-view.ts": {
+        "version": "edc6c9b9ce0c51d0cdd451266ee6245d7fa7802951d36d6870012d289fdc2ac1",
+        "signature": "ab1b79fe44c82d7b03d047d8b572529bcb15a8f1627cd6f04215bee3b50b4e3b",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/series-pane-view-base.ts": {
+        "version": "75e70e2725e2cd65ea9aec914905c0c58a9e7e0eeb4e0b29856c45827f297014",
+        "signature": "5c7be8427a59323dd648f1da2e0d0c55296be7e0d9f83d1063d6993940af2576",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/line-pane-view-base.ts": {
+        "version": "8ddfe2f9cf093d5bfc98ba0f6c84c19710715f7e19b30abb861b88e9f5f118a4",
+        "signature": "4d73e791d4ba5f6bc454feaa8629905d22ad571837242efed139e41252fc3ad4",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/area-pane-view.ts": {
+        "version": "a5c1f1bb6b58f0f613099c244bac52ba47da4c7eb7824ba4c651c9b9bc2a9bec",
+        "signature": "45e4b456c608fdd3567787d943b969e5ae43c5d728021730a4d5a43b7d989f1a",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/optimal-bar-width.ts": {
+        "version": "5d96182ccf200e40bc6cbdd366e7e708c34ce0bce41c6ed2309d12219c6b912d",
+        "signature": "6b8e07ccfa6e971dc2b8d2e4f124e63f32ac791d8fdbb427f0be8ecee4f0b3ea",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/bars-renderer.ts": {
+        "version": "e7033674de67a7ee55f4b3cfdb5324d8adb0a0416f99fab87ea87743c26d0d90",
+        "signature": "05ae07dc565bc55ea35acec99c491e0a19018802c12bb10a61e0ac3d5b829308",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/bars-pane-view-base.ts": {
+        "version": "9fdcfc7ee6a9eb5d2c316889e10efbfc79fe48c4ee8156f653182e61a7d75aeb",
+        "signature": "55aa4c8de73138572e0cd77dd89b4dda9753b6c83b0fd26ccb840f07fcca25d4",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/bars-pane-view.ts": {
+        "version": "438fdefde5b0376f5492646915f6b813895a78d5f1bebce7686f4f9f1808e2f3",
+        "signature": "40ef968b4a246f08d0a565f5a06210ec3507a3ab45b988e79b6cf3ee6de2d1de",
+        "affectsGlobalScope": false
+      },
+      "./helpers/canvas-helpers.d.ts": {
+        "version": "768bfd6886c6f3fef7f49d5c9056f77840e150c8ef68e830eaeb436e495a752b",
+        "signature": "768bfd6886c6f3fef7f49d5c9056f77840e150c8ef68e830eaeb436e495a752b",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/candlesticks-renderer.ts": {
+        "version": "c6ff82616cac0a9bb6e81802241a48560d3dce995dcfb8ede3cafb3846a98c0a",
+        "signature": "705b53faf57fe1c4bd256356f75d0d60ea0f3766708e7f2cf8215cfa05fed66f",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/candlesticks-pane-view.ts": {
+        "version": "60fd2849379be41b405f394af002242d16d7d49419004cb72d49459c89a9431b",
+        "signature": "dfd125d2a3e47e2c0eb20c5932a14c28b9654198d5d156b0206d16af35e9ef65",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/histogram-renderer.ts": {
+        "version": "d765c3186ccc6c1317a9ad81ce2042e2fc21dd71ce34ab76ec5945a62ac643fa",
+        "signature": "7530e39cdbeb551ad0f885c23d086ad65261e99d238d0d7a45ff25eaaea3efac",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/histogram-pane-view.ts": {
+        "version": "d3fa71d1e824691ec719b92a5f1034b3014c8ab758c535a33389ef6ab64cfea9",
+        "signature": "8f7042b9a4c21ddde669f0911271dd071fd89b0d84b2a31ee2e2c5b8a973298e",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/line-pane-view.ts": {
+        "version": "e61023f5ea8e500252463b84fd1be64aa242ea81a00acb2e6b9be17ad9978337",
+        "signature": "df8f673cf1d8b57d20f157ad698263a664c8ea629db02e83a1030c2d8f9f3d7c",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/price-axis/iprice-axis-view.ts": {
+        "version": "bbbcfccdaaa55475d968f8166dac79111138bceec01920652428d8e345d9fa16",
+        "signature": "09cd4b95f3fa85a74c2d27c29a25346809367db4b165d7061fd433fc9b919540",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/pane-price-axis-view.ts": {
+        "version": "99e0dd18132a235d1115930cf810e209ab99dd7309942f9307da472843e7d7c0",
+        "signature": "6c978d1c0997516b221e097abd5bfca3bbf2ed6aee234ad6c0ab428417899f9e",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/horizontal-line-renderer.ts": {
+        "version": "3fc6d57135e43bf879e0c278f7dd3d3d70d939a0d1a6064adc9cdd704c7c7737",
+        "signature": "cce84037900d112e9c2f192058679503ff3afa9e6d8c0df9c95ed4ed3facebc8",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/series-horizontal-line-pane-view.ts": {
+        "version": "1aefa0e1103ade4d3de06c79c34f4a9eebad1f9884ec73a45d5cabe3ae2843cc",
+        "signature": "c2159753f87f329b02a4a3a47a9ac60128a094c52e8f5b668e46a28513752bd1",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/series-horizontal-base-line-pane-view.ts": {
+        "version": "950175dc6496bc5930e0d19b572a6bf07ef7e120a012a45f06510fee1a6495c7",
+        "signature": "25912d8ccc77ec0b48dca4518eb6cce2f9838dabba5ba73b630f450221e8f775",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/series-markers.ts": {
+        "version": "8132ed37a28db4aaec88c6c1800f5fe50f2469dc053b425c3ca14514bdf59a2d",
+        "signature": "fc52a5d4833cbe85ff48474899ffb4bbdd8b6111ca86947ececb985654eabfcb",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/series-markers-utils.ts": {
+        "version": "b7b6dcdf9044946b3d958744a6f731456f867be9fd14acbadfaf8c2e78ff3631",
+        "signature": "f240eb4444064c5bd3fe5c49b56ae233e83d220cf143868763614ab42456025b",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/series-markers-square.ts": {
+        "version": "2a352e72f2b3f14c4cf72617ac6acb35205c6ae4097bebcf9eb8b4d03d94c449",
+        "signature": "1ed4152cf70704977ded58b9f929a6a2856559ff88bd3100a3c4c246b8d2aa07",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/series-markers-arrow.ts": {
+        "version": "eb8a62de09b5c43d9f2be0f303124093b251a5c31974d7ad53d851c2960deb6b",
+        "signature": "45fc3af66f46aafd35c4e86652ac7cc1088d9dbff8cbd48d3404653f489c2351",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/series-markers-circle.ts": {
+        "version": "47b4ec7e6dac0bb799855eebeb74d232655661b5c5268816a3451dbe3945198d",
+        "signature": "b16794566be7c75acf7791f790e61769c4b83a16c6141b0c0da6ed4ab30532ac",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/series-markers-text.ts": {
+        "version": "6ad1e8897d7656111ae1d027b22826489f45c2dd9fde8acff7641f62b7c9a6ab",
+        "signature": "24b79b9c00c02836a1ad914815464111308f82bca83ea65ddca94b9b4767d861",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/series-markers-renderer.ts": {
+        "version": "8026c9b5ad9a641e2271922eec6ab14eea67473e5a23258bc65d277b37dac849",
+        "signature": "00b815af9d251865db4a2efe0c45a86428600fd60904339cba499335a6fb93fb",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/series-markers-pane-view.ts": {
+        "version": "b26198df24f2c9e871361d83fe935c1a3652d21d90ed4bdf41ad58f4d12e1172",
+        "signature": "bf36c9e627b3c497182c2f67cf30433cb149c77c18c33fff7150d86913894997",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/series-price-line-pane-view.ts": {
+        "version": "28bd6f6a5242f70c756dec0f643511debf234cf39b06bea32dfad32a8d41779b",
+        "signature": "a7ec9ff4af3247ea931ccc0a47d0da5c7ecb56c2ddf5e4f5869a2552a1c91917",
+        "affectsGlobalScope": false
+      },
+      "./helpers/color.d.ts": {
+        "version": "c9fc4e29b5a765d3912bd7439e6ab96ad838bbb9e5427f006806bfeff07955ec",
+        "signature": "c9fc4e29b5a765d3912bd7439e6ab96ad838bbb9e5427f006806bfeff07955ec",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/price-axis-view-renderer.ts": {
+        "version": "e4faf60572e0a58a1d1a5d7e4101a512b6e7ef0285a428d319a865533648310e",
+        "signature": "53465a3a27d27f2581950ed5a18b8cc818e54c715e705ee33408184c73e4561c",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/price-axis/price-axis-view.ts": {
+        "version": "172396e1c31ce08362161078d0af968ef6a31582397becb14bbc2469632a5f6d",
+        "signature": "4d1c7088722814c1b5138a7fe42044fdfcb0ec85aa1ef28917fa1d568deebb86",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/price-axis/series-price-axis-view.ts": {
+        "version": "271fe03e49ff7047eb5b084232c2ceb41b5a5c5e615308444bea9f1cf63a065a",
+        "signature": "9775e333b25b170c671b6d91dc250b68dd6f69b571a8e27913e6da60724e1b18",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/custom-price-line-pane-view.ts": {
+        "version": "f46761aef4394d19755b5bd636af4226a7e12179f611194bfa430449b6feeb5a",
+        "signature": "ee6dd8afd00f70bec74c398fc0b92c2e9bb2872b67cab46f19c79d1b94ddac60",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/price-axis/custom-price-line-price-axis-view.ts": {
+        "version": "d5f7b2e67e45fc7d0f814e24021fce06c910872b1c10d577c998e5534693d4f0",
+        "signature": "1cfbcfa6162bcc62f760d357ba2c8aae23cbf1db75f3591f53ea5fbb37362f00",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/price-line-options.ts": {
+        "version": "6fab7453d12981031d1b1bc0864fa5479978766c561439018fbf240dd53cd7ee",
+        "signature": "edd57a898d7829aa5f44c889121f4b75d487109888e7b0fc58387676c04c9f75",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/custom-price-line.ts": {
+        "version": "945bfb5b4061fc5e2ee309e7be426a176085016b4a9ed47805d203520e5a8fcb",
+        "signature": "27c701365a71ce5ebd38a4f0b7c444acf500a1de788a5039257eef360a6320c2",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/default-price-scale.ts": {
+        "version": "9b7117af074a97847c9ff15810bd25a44b7cda17367bde84090d3a05cdca074b",
+        "signature": "dbaa4cae9f8f6f522cdb710600fba509f8f56c8d2bbc17b2cafb23b9a50fb9e8",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/palette.ts": {
+        "version": "48771f10cfa5a0dfdf7bcc67a8918acafd9cc24f6f82fef6e246da9d7299872e",
+        "signature": "6c7e7fec3bb5deb4ac63628007a71097f44d6f2005f74ce8ee80229012ee6135",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/itime-axis-view-renderer.ts": {
+        "version": "e3af36af5821ff6484e57d0403a28b9f58dce69c110e425016c1b5b668d30289",
+        "signature": "fac8b04c2ae5debbbdef8002b78e1094da615c92553156ac7843240b089ade32",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/time-axis-view-renderer.ts": {
+        "version": "e40772cff8c5ddd7b23b25b7c8da6bee28c34a8ca96b9540f1940c6a7f0e9985",
+        "signature": "5401c62e1453166a283649f397be4eb2f618e3807ad8eaeb19859abef7df6d77",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/time-axis/time-axis-view.ts": {
+        "version": "2d82dd3ecf8663bd89c30d9f716ed417bc45d0392491f8d74e4d61ba937f35ac",
+        "signature": "b45d509755deff327f021b2c8b9ee5cb9a6d82a5628784957aeda30e740f04b7",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/idata-source.ts": {
+        "version": "50c6bef66b342865bb0ebe683a2ea91834630bbc6e74c9ab0e28f3affe701d49",
+        "signature": "ecf6e2354d0339fb26c147acdca1b3b9c9e74538f4138cde83b720633badb5f7",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/sort-sources.ts": {
+        "version": "5bccc037b2e681ab32c04ad351b8f22544bdd91a0fd85128f0f911c2bd45df3d",
+        "signature": "4e33e32323f3e5f5c37be200b29a2c2d0b2650adb363316986240804bf630437",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/pane.ts": {
+        "version": "6c7157224b89ae6835f79f6f8a378e14564ab2484a27e3a3398e2b059c36b2c4",
+        "signature": "2d2c06cc528bfc74e4fcc706bd7c58654d8ec08dbfc716b9995866b8f9da409c",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/data-source.ts": {
+        "version": "22d762668f2d2916d05b153cd1f9bc3522f876ded00b39885f89cad0ca44a890",
+        "signature": "08d164a60757e067e5bfa1d2265087d083297d28ffd77028b96b3824c5049156",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/price-data-source.ts": {
+        "version": "72e1f68361371b65f08dc7d3f47beb8094bfaadb623cad3ace9402a3ba89e239",
+        "signature": "fdb14732c3efdbbe673ba252047f5a1317c25bffe001f9d2f71c30178464646d",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/series.ts": {
+        "version": "e8a2a9313eb7131f60e00c196f1369bb198bdaf5513eae3a17bc8d212516a061",
+        "signature": "018abc0f673ca48bf38a0df2630ff53335337e96557749f5e49fd60d053b0703",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/marks-renderer.ts": {
+        "version": "010e306a8ada3f3d834e1b35baa1e9125067d397e24f9f98c2bc85462deeeb93",
+        "signature": "7e8ccc8f1f4b39c99a4aec5b7b303934340bdad86408096a30c2e410dda6f193",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/crosshair-marks-pane-view.ts": {
+        "version": "5a437c4e347b249b27e8dff6dacd027ca5dbfdacc414bfabd90e333affe70a5c",
+        "signature": "2d723eea9078e972eddb5dd7f0cf30f58d7a8d7c4acb60e9d749653f6f1d26f7",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/crosshair-renderer.ts": {
+        "version": "e112f43d6a93669b5b5540497f5585bf739f28d0c5de0952736ae8974d04346c",
+        "signature": "97a0ef6d32088f87463455f2e1539603b6cb8b9132daae7508966293db076aef",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/crosshair-pane-view.ts": {
+        "version": "f0c29bc7af376962d9fb901640947d064409c22948520d4e1e24c85adf1dabf8",
+        "signature": "16d7b324724ef02e5b3634dc0ebcbb219cc2cf813c409203b2ed5c40604440a4",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/price-axis/crosshair-price-axis-view.ts": {
+        "version": "77bc8424184a90b7904fffbcb7b222f6a4f71fc4fca8c112a55533c3652f462c",
+        "signature": "17404cda17e0cd578e7ef27b2eb49a572cfd6ca56dce0f385f7bc4a78da8507b",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/time-axis/crosshair-time-axis-view.ts": {
+        "version": "b813c6d3c654c5315ab32d747f4354cb706bd459461c8b1056368ce4980caca5",
+        "signature": "23ab68840b190636a07353c771a2476c5147d9d9be9fb3f271e4ade399a1307e",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/crosshair.ts": {
+        "version": "50d6ab76ad6867ba6202f3d4f6295686526277cda51428954b648e41340ea5a7",
+        "signature": "a75cbe7302908321da54dc8ed9362e23745e42bb40e1829d95504c61294821b2",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/grid-renderer.ts": {
+        "version": "9ee77839c711908d54adee935c388aeebd7ef18de8e826db52e498598b985c39",
+        "signature": "95f76646233b1bd023fbd1a93d97824a31908818ff029fd58be4483950bf6db4",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/grid-pane-view.ts": {
+        "version": "69e99dcaf6c9ed8f0e011d8703a716d7cedfbdf29473c34064689301531f5e51",
+        "signature": "1e15f4d2d55a03b031ea4fdf4293d5bc90016a862f2ea102e4287ec98accc1de",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/grid.ts": {
+        "version": "53ef900d9f27704c3cc46ea0c377d6b047e7c2bbff15d6855aad90da3388e39a",
+        "signature": "6b748c6e9173d491efbea3a8ed91f4fd81e5e7fe1d6230b45f78bd41de96acfa",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/invalidate-mask.ts": {
+        "version": "679a0b1349772d1d19a449e596cfb14649d1c02f45150d0056d6efc0bd8108c3",
+        "signature": "b44faedb57171867d058e644dcd938b4e5e35d33a4c57035fc0de7e314531a36",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/layout-options.ts": {
+        "version": "3dc5d510f9906fcbfc7bf4b1e0d2c7fd9e16f380dca772962eefd37c2930f15f",
+        "signature": "614b2baf11b38fe07d37b029f3a496e9a5896815b9b135d5601bf711338e8145",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/magnet.ts": {
+        "version": "4fc4730b1fefdcd24062415babbf38ece3a47e6092c6622649557c18dac98e15",
+        "signature": "7add0a862d4cbc79e9f1a06418b23bc98aed17fdb7f9f5112c8e8bf2996779fd",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/point.ts": {
+        "version": "6a9b85ffdd327cd5669862e755a64f52cf0af6e3902db6f8ada79fe0e56e52cb",
+        "signature": "62ad2f996b57ba916112e7edeedce26e3e15fd022bca0cf8b82fbbbcdb97fafa",
+        "affectsGlobalScope": false
+      },
+      "../../../src/renderers/watermark-renderer.ts": {
+        "version": "32023aac46687ff1e5cc4f5fc44982ac15872e68a93eade453d67cc1dcffe600",
+        "signature": "2c5f826826aae68885536ddd1e7fcc650be27827eefdfc96a7743a5ede5261d1",
+        "affectsGlobalScope": false
+      },
+      "../../../src/views/pane/watermark-pane-view.ts": {
+        "version": "a58f60d675185eef070c44c9d6d46d2687ccfbb6ee979b80478ffca5898a6aa3",
+        "signature": "7ed0e5f31d09d3b8e8d087596ed2046abf70a00bce6e9c19c4d8e73901e67505",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/watermark.ts": {
+        "version": "81572bd5c52b788238736d2a230b0abef1a4486e3cb1c4168d3e48956386a67f",
+        "signature": "f2404cad4d9f5490cc1fc6882fad306d181995d5ec55498cafc326e5f8850c3d",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/chart-model.ts": {
+        "version": "8010018bf6b91b39f4f60a1aeb548515c828c048b95fa30a030dc40d4e181194",
+        "signature": "4c4e75cbcf7f6652066134fe1334d9d79b30024f13affd42c39f789164d16c05",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/iprice-data-source.ts": {
+        "version": "b2d73dc52314a2ec459eb97efff8bfb3ac53fbaa29b68be1842ded2c6244105b",
+        "signature": "8f3665b67b93976e89810ba0e59de9b973d48f5b1cdc9a132d03c582d52e66d1",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/price-scale-conversions.ts": {
+        "version": "f72bf2891e7845680913df31ac6371c5aa1b49edf53b08bdf994a5315b18f757",
+        "signature": "2217ccdda2fcb3ee969faa9c552e6a3318c04073f14d60b8c1fc39cf512aa21e",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/price-tick-span-calculator.ts": {
+        "version": "69b0024a82450751918869f614f724701f0f456a3a68f7e34484321d47b214f9",
+        "signature": "0bab56b76d69c1050d2358d8ffd41f44f4477b09ed2e88e0732aa94afc6226cb",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/price-tick-mark-builder.ts": {
+        "version": "0963b7fe8ff774808b97891b68ef40e9ee85777655040699ba4344a79277e4ae",
+        "signature": "14a6e54a612e52360cfe62ea43473c0e0c17b4b2c8c95ff1674647b07460346d",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/price-scale.ts": {
+        "version": "e60b4f7998263601bd3f832e2fbd5eb807d4ec087cbb0bff46a878922ac2f22c",
+        "signature": "894e710de53d8ee2cdb344c81cb4c2ba8f26c59bfcd1df13334df08c1c0724ac",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/series-options.ts": {
+        "version": "e6fe8b0220e79c02ba61f335b48c80d505995b6fd97d39f3df87178e4ad6a50e",
+        "signature": "c8320552c87d73608b81e8c50f9f33460107bed19f4436f400c14f37b5821ce5",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/price-range-impl.ts": {
+        "version": "b85455fc82bbbb1cb38541ab6c25114ada6403ee09324725c4a9a222d7e74b2a",
+        "signature": "86b1f4bbf3952c2d616e9c3dff2ca87042ccfa035eb9a32f032115d40038ab4f",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/autoscale-info-impl.ts": {
+        "version": "c2cab36dcd0b8505e2dd5e6e2173632f46b46fb6246373ce3e72f91deed21f3e",
+        "signature": "b153b2324d1a1013b1f34081ba3bb9c1a40f1b2cd55ae68e2ed961329f15a1c3",
+        "affectsGlobalScope": false
+      },
+      "../../../src/model/default-tick-mark-formatter.ts": {
+        "version": "bca3f30fc39a2451f986f70a2d7ebc1627b4948653a61c30f1db68867b1fb1ed",
+        "signature": "a3fb903bc239480085e20e82420161ec87f1fa098daa1db96504ff15005c0e81",
+        "affectsGlobalScope": false
+      },
+      "../../../src/typings/_global-types/index.d.ts": {
+        "version": "d6070896405dfc9897ae2ec99a19814b861bef8195db408b7dbabb5316744e1c",
+        "signature": "d6070896405dfc9897ae2ec99a19814b861bef8195db408b7dbabb5316744e1c",
+        "affectsGlobalScope": true
+      }
+    },
+    "options": {
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "importHelpers": true,
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.es2015.collection.d.ts",
+        "lib.es2015.core.d.ts",
+        "lib.es2015.iterable.d.ts",
+        "lib.es2015.symbol.wellknown.d.ts",
+        "lib.es2016.array.include.d.ts",
+        "lib.es5.d.ts"
+      ],
+      "module": 99,
+      "moduleResolution": 2,
+      "noEmitOnError": true,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "preserveConstEnums": true,
+      "resolveJsonModule": true,
+      "rootDir": "../../..",
+      "strict": true,
+      "stripInternal": false,
+      "target": 1,
+      "typeRoots": [
+        "../../../src/typings",
+        "../../../node_modules/@types"
+      ],
+      "types": [
+        "_global-types"
+      ],
+      "composite": true,
+      "outDir": "..",
+      "configFilePath": "../../../src/tsconfig.model.json"
+    },
+    "referencedMap": {
+      "./formatters/date-formatter.d.ts": [
+        "./formatters/iformatter.d.ts"
+      ],
+      "./formatters/date-time-formatter.d.ts": [
+        "./formatters/iformatter.d.ts"
+      ],
+      "./formatters/percentage-formatter.d.ts": [
+        "./formatters/price-formatter.d.ts"
+      ],
+      "./formatters/price-formatter.d.ts": [
+        "./formatters/iformatter.d.ts"
+      ],
+      "./formatters/volume-formatter.d.ts": [
+        "./formatters/iformatter.d.ts"
+      ],
+      "./helpers/color.d.ts": [
+        "./helpers/nominal.d.ts"
+      ],
+      "./helpers/delegate.d.ts": [
+        "./helpers/isubscription.d.ts"
+      ],
+      "../../../src/model/autoscale-info-impl.ts": [
+        "../../../src/model/price-range-impl.ts",
+        "../../../src/model/series-options.ts"
+      ],
+      "../../../src/model/bar.ts": [
+        "../../../src/model/coordinate.ts",
+        "./helpers/nominal.d.ts"
+      ],
+      "../../../src/model/chart-model.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/crosshair.ts",
+        "../../../src/model/default-price-scale.ts",
+        "../../../src/model/grid.ts",
+        "../../../src/model/invalidate-mask.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/layout-options.ts",
+        "../../../src/model/localization-options.ts",
+        "../../../src/model/magnet.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/point.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-options.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/model/watermark.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/renderers/price-axis-renderer-options-provider.ts",
+        "../../../src/typings/_build-time-constants/index.d.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/delegate.d.ts",
+        "./helpers/idestroyable.d.ts",
+        "./helpers/isubscription.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/coordinate.ts": [
+        "./helpers/nominal.d.ts"
+      ],
+      "../../../src/model/crosshair.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/data-source.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/views/pane/crosshair-marks-pane-view.ts",
+        "../../../src/views/pane/crosshair-pane-view.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/crosshair-price-axis-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "../../../src/views/price-axis/price-axis-view.ts",
+        "../../../src/views/time-axis/crosshair-time-axis-view.ts",
+        "../../../src/views/time-axis/time-axis-view.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/custom-price-line.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/price-line-options.ts",
+        "../../../src/model/series.ts",
+        "../../../src/views/pane/custom-price-line-pane-view.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/custom-price-line-price-axis-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/data-source.ts": [
+        "../../../src/model/idata-source.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "../../../src/views/time-axis/time-axis-view.ts"
+      ],
+      "../../../src/model/default-tick-mark-formatter.ts": [
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/model/formatted-labels-cache.ts": [
+        "../../../src/model/time-data.ts",
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/model/grid.ts": [
+        "../../../src/model/pane.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/views/pane/grid-pane-view.ts",
+        "../../../src/views/pane/ipane-view.ts"
+      ],
+      "../../../src/model/idata-source.ts": [
+        "../../../src/model/pane.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "../../../src/views/time-axis/time-axis-view.ts"
+      ],
+      "../../../src/model/invalidate-mask.ts": [
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/iprice-data-source.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/idata-source.ts",
+        "../../../src/model/time-data.ts",
+        "./formatters/iformatter.d.ts"
+      ],
+      "../../../src/model/localization-options.ts": [
+        "../../../src/model/price-formatter-fn.ts",
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/magnet.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/crosshair.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/model/palette.ts": [
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/model/pane.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/default-price-scale.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/sort-sources.ts",
+        "../../../src/model/time-scale.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/delegate.d.ts",
+        "./helpers/idestroyable.d.ts",
+        "./helpers/isubscription.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/plot-data.ts": [
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/plot-list.ts": [
+        "../../../src/model/plot-data.ts",
+        "../../../src/model/time-data.ts",
+        "./helpers/algorithms.d.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/nominal.d.ts"
+      ],
+      "../../../src/model/point.ts": [
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/model/price-data-source.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/data-source.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/time-data.ts",
+        "./formatters/iformatter.d.ts"
+      ],
+      "../../../src/model/price-formatter-fn.ts": [
+        "../../../src/model/bar.ts"
+      ],
+      "../../../src/model/price-line-options.ts": [
+        "../../../src/renderers/draw-line.ts"
+      ],
+      "../../../src/model/price-range-impl.ts": [
+        "../../../src/model/series-options.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/price-scale-conversions.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/price-range-impl.ts",
+        "./helpers/mathex.d.ts"
+      ],
+      "../../../src/model/price-scale.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/layout-options.ts",
+        "../../../src/model/localization-options.ts",
+        "../../../src/model/price-range-impl.ts",
+        "../../../src/model/price-scale-conversions.ts",
+        "../../../src/model/price-tick-mark-builder.ts",
+        "../../../src/model/range-impl.ts",
+        "../../../src/model/sort-sources.ts",
+        "../../../src/model/time-data.ts",
+        "./formatters/iformatter.d.ts",
+        "./formatters/percentage-formatter.d.ts",
+        "./formatters/price-formatter.d.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/delegate.d.ts",
+        "./helpers/isubscription.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/price-tick-mark-builder.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/price-tick-span-calculator.ts",
+        "./helpers/mathex.d.ts"
+      ],
+      "../../../src/model/price-tick-span-calculator.ts": [
+        "./helpers/mathex.d.ts"
+      ],
+      "../../../src/model/range-impl.ts": [
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/model/series-bar-colorer.ts": [
+        "../../../src/model/plot-list.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series-options.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/model/series-data.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/plot-data.ts",
+        "../../../src/model/plot-list.ts",
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/series-options.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/price-formatter-fn.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/renderers/draw-line.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/series.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/custom-price-line.ts",
+        "../../../src/model/default-price-scale.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/palette.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/plot-data.ts",
+        "../../../src/model/plot-list.ts",
+        "../../../src/model/price-data-source.ts",
+        "../../../src/model/price-line-options.ts",
+        "../../../src/model/price-range-impl.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series-markers.ts",
+        "../../../src/model/series-options.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/views/pane/area-pane-view.ts",
+        "../../../src/views/pane/bars-pane-view.ts",
+        "../../../src/views/pane/candlesticks-pane-view.ts",
+        "../../../src/views/pane/histogram-pane-view.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts",
+        "../../../src/views/pane/line-pane-view.ts",
+        "../../../src/views/pane/pane-price-axis-view.ts",
+        "../../../src/views/pane/series-horizontal-base-line-pane-view.ts",
+        "../../../src/views/pane/series-markers-pane-view.ts",
+        "../../../src/views/pane/series-price-line-pane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "../../../src/views/price-axis/series-price-axis-view.ts",
+        "./formatters/iformatter.d.ts",
+        "./formatters/percentage-formatter.d.ts",
+        "./formatters/price-formatter.d.ts",
+        "./formatters/volume-formatter.d.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/idestroyable.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/sort-sources.ts": [
+        "../../../src/model/idata-source.ts",
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/model/tick-marks.ts": [
+        "../../../src/model/time-data.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/delegate.d.ts"
+      ],
+      "../../../src/model/time-data.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/range-impl.ts",
+        "./helpers/algorithms.d.ts",
+        "./helpers/nominal.d.ts"
+      ],
+      "../../../src/model/time-points.ts": [
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/time-scale-visible-range.ts": [
+        "../../../src/model/range-impl.ts",
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/time-scale.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/formatted-labels-cache.ts",
+        "../../../src/model/localization-options.ts",
+        "../../../src/model/range-impl.ts",
+        "../../../src/model/tick-marks.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-points.ts",
+        "../../../src/model/time-scale-visible-range.ts",
+        "./formatters/date-formatter.d.ts",
+        "./formatters/date-time-formatter.d.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/delegate.d.ts",
+        "./helpers/isubscription.d.ts",
+        "./helpers/mathex.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/watermark.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/data-source.ts",
+        "../../../src/renderers/watermark-renderer.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/pane/watermark-pane-view.ts"
+      ],
+      "../../../src/renderers/area-renderer.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/line-renderer.ts",
+        "../../../src/renderers/scaled-renderer.ts",
+        "../../../src/renderers/walk-line.ts"
+      ],
+      "../../../src/renderers/bars-renderer.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/optimal-bar-width.ts"
+      ],
+      "../../../src/renderers/candlesticks-renderer.ts": [
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/bars-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/optimal-bar-width.ts",
+        "./helpers/canvas-helpers.d.ts"
+      ],
+      "../../../src/renderers/composite-renderer.ts": [
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/crosshair-renderer.ts": [
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/draw-line.ts": [
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/renderers/grid-renderer.ts": [
+        "../../../src/model/price-scale.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/renderers/histogram-renderer.ts": [
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/horizontal-line-renderer.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/ipane-renderer.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/renderers/iprice-axis-view-renderer.ts": [
+        "../../../src/model/text-width-cache.ts",
+        "../../../src/renderers/draw-line.ts"
+      ],
+      "../../../src/renderers/itime-axis-view-renderer.ts": [
+        "../../../src/model/text-width-cache.ts"
+      ],
+      "../../../src/renderers/line-renderer.ts": [
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/scaled-renderer.ts",
+        "../../../src/renderers/walk-line.ts"
+      ],
+      "../../../src/renderers/marks-renderer.ts": [
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/line-renderer.ts",
+        "../../../src/renderers/scaled-renderer.ts"
+      ],
+      "../../../src/renderers/price-axis-renderer-options-provider.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "./helpers/make-font.d.ts"
+      ],
+      "../../../src/renderers/price-axis-view-renderer.ts": [
+        "../../../src/model/text-width-cache.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "./helpers/canvas-helpers.d.ts",
+        "./helpers/color.d.ts"
+      ],
+      "../../../src/renderers/scaled-renderer.ts": [
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/series-markers-arrow.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/renderers/series-markers-square.ts",
+        "../../../src/renderers/series-markers-utils.ts",
+        "./helpers/mathex.d.ts"
+      ],
+      "../../../src/renderers/series-markers-circle.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/renderers/series-markers-utils.ts"
+      ],
+      "../../../src/renderers/series-markers-renderer.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/series-markers.ts",
+        "../../../src/model/text-width-cache.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/scaled-renderer.ts",
+        "../../../src/renderers/series-markers-arrow.ts",
+        "../../../src/renderers/series-markers-circle.ts",
+        "../../../src/renderers/series-markers-square.ts",
+        "../../../src/renderers/series-markers-text.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/make-font.d.ts"
+      ],
+      "../../../src/renderers/series-markers-square.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/renderers/series-markers-utils.ts"
+      ],
+      "../../../src/renderers/series-markers-text.ts": [
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/renderers/series-markers-utils.ts": [
+        "../../../src/model/series-markers.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/mathex.d.ts"
+      ],
+      "../../../src/renderers/time-axis-view-renderer.ts": [
+        "../../../src/renderers/itime-axis-view-renderer.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/canvas-helpers.d.ts"
+      ],
+      "../../../src/renderers/walk-line.ts": [
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/draw-line.ts"
+      ],
+      "../../../src/renderers/watermark-renderer.ts": [
+        "../../../src/renderers/scaled-renderer.ts"
+      ],
+      "../../../src/views/pane/area-pane-view.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/area-renderer.ts",
+        "../../../src/renderers/composite-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/line-renderer.ts",
+        "../../../src/views/pane/line-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/bars-pane-view-base.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/renderers/bars-renderer.ts",
+        "../../../src/views/pane/series-pane-view-base.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/views/pane/bars-pane-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/bars-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/bars-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/candlesticks-pane-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/candlesticks-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/bars-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/crosshair-marks-pane-view.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/crosshair.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/composite-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/marks-renderer.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts",
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/views/pane/crosshair-pane-view.ts": [
+        "../../../src/model/crosshair.ts",
+        "../../../src/renderers/crosshair-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/views/pane/custom-price-line-pane-view.ts": [
+        "../../../src/model/custom-price-line.ts",
+        "../../../src/model/series.ts",
+        "../../../src/views/pane/series-horizontal-line-pane-view.ts"
+      ],
+      "../../../src/views/pane/grid-pane-view.ts": [
+        "../../../src/model/pane.ts",
+        "../../../src/renderers/grid-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts"
+      ],
+      "../../../src/views/pane/histogram-pane-view.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/renderers/composite-renderer.ts",
+        "../../../src/renderers/histogram-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/series-pane-view-base.ts",
+        "./helpers/assertions.d.ts"
+      ],
+      "../../../src/views/pane/ipane-view.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/views/pane/iupdatable-pane-view.ts": [
+        "../../../src/views/pane/ipane-view.ts"
+      ],
+      "../../../src/views/pane/line-pane-view-base.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/views/pane/series-pane-view-base.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/views/pane/line-pane-view.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/line-renderer.ts",
+        "../../../src/views/pane/line-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/pane-price-axis-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/text-width-cache.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts"
+      ],
+      "../../../src/views/pane/series-horizontal-base-line-pane-view.ts": [
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series.ts",
+        "../../../src/views/pane/series-horizontal-line-pane-view.ts"
+      ],
+      "../../../src/views/pane/series-horizontal-line-pane-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/series.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/horizontal-line-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/ipane-view.ts"
+      ],
+      "../../../src/views/pane/series-markers-pane-view.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-markers.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/series-markers-renderer.ts",
+        "../../../src/renderers/series-markers-utils.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/views/pane/series-pane-view-base.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-options.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts"
+      ],
+      "../../../src/views/pane/series-price-line-pane-view.ts": [
+        "../../../src/model/series-options.ts",
+        "../../../src/model/series.ts",
+        "../../../src/views/pane/series-horizontal-line-pane-view.ts"
+      ],
+      "../../../src/views/pane/watermark-pane-view.ts": [
+        "../../../src/model/watermark.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/watermark-renderer.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts",
+        "./helpers/make-font.d.ts"
+      ],
+      "../../../src/views/price-axis/crosshair-price-axis-view.ts": [
+        "../../../src/model/crosshair.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/views/price-axis/price-axis-view.ts",
+        "./helpers/color.d.ts"
+      ],
+      "../../../src/views/price-axis/custom-price-line-price-axis-view.ts": [
+        "../../../src/model/custom-price-line.ts",
+        "../../../src/model/series.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/views/price-axis/price-axis-view.ts",
+        "./helpers/color.d.ts"
+      ],
+      "../../../src/views/price-axis/iprice-axis-view.ts": [
+        "../../../src/renderers/iprice-axis-view-renderer.ts"
+      ],
+      "../../../src/views/price-axis/price-axis-view.ts": [
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/renderers/price-axis-view-renderer.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "./helpers/color.d.ts"
+      ],
+      "../../../src/views/price-axis/series-price-axis-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series-options.ts",
+        "../../../src/model/series.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/views/price-axis/price-axis-view.ts",
+        "./helpers/color.d.ts"
+      ],
+      "../../../src/views/time-axis/crosshair-time-axis-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/crosshair.ts",
+        "../../../src/renderers/time-axis-view-renderer.ts",
+        "../../../src/views/time-axis/time-axis-view.ts",
+        "./helpers/assertions.d.ts",
+        "./helpers/color.d.ts"
+      ],
+      "../../../src/views/time-axis/time-axis-view.ts": [
+        "../../../src/renderers/time-axis-view-renderer.ts",
+        "./helpers/color.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./formatters/date-formatter.d.ts": [
+        "./formatters/iformatter.d.ts"
+      ],
+      "./formatters/date-time-formatter.d.ts": [
+        "./formatters/iformatter.d.ts"
+      ],
+      "./formatters/percentage-formatter.d.ts": [
+        "./formatters/price-formatter.d.ts"
+      ],
+      "./formatters/price-formatter.d.ts": [
+        "./formatters/iformatter.d.ts"
+      ],
+      "./formatters/volume-formatter.d.ts": [
+        "./formatters/iformatter.d.ts"
+      ],
+      "./helpers/color.d.ts": [
+        "./helpers/nominal.d.ts"
+      ],
+      "./helpers/delegate.d.ts": [
+        "./helpers/isubscription.d.ts"
+      ],
+      "../../../src/model/autoscale-info-impl.ts": [
+        "../../../src/model/price-range-impl.ts",
+        "../../../src/model/series-options.ts"
+      ],
+      "../../../src/model/bar.ts": [
+        "../../../src/model/coordinate.ts",
+        "./helpers/nominal.d.ts"
+      ],
+      "../../../src/model/chart-model.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/crosshair.ts",
+        "../../../src/model/grid.ts",
+        "../../../src/model/invalidate-mask.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/layout-options.ts",
+        "../../../src/model/localization-options.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/point.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-options.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/model/watermark.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/renderers/price-axis-renderer-options-provider.ts",
+        "./helpers/idestroyable.d.ts",
+        "./helpers/isubscription.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/coordinate.ts": [
+        "./helpers/nominal.d.ts"
+      ],
+      "../../../src/model/crosshair.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/data-source.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "../../../src/views/time-axis/time-axis-view.ts"
+      ],
+      "../../../src/model/custom-price-line.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/price-line-options.ts",
+        "../../../src/model/series.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts"
+      ],
+      "../../../src/model/data-source.ts": [
+        "../../../src/model/idata-source.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "../../../src/views/time-axis/time-axis-view.ts"
+      ],
+      "../../../src/model/default-tick-mark-formatter.ts": [
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts"
+      ],
+      "../../../src/model/formatted-labels-cache.ts": [
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/grid.ts": [
+        "../../../src/model/pane.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/views/pane/ipane-view.ts"
+      ],
+      "../../../src/model/idata-source.ts": [
+        "../../../src/model/pane.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "../../../src/views/time-axis/time-axis-view.ts"
+      ],
+      "../../../src/model/invalidate-mask.ts": [
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/iprice-data-source.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/idata-source.ts",
+        "../../../src/model/time-data.ts",
+        "./formatters/iformatter.d.ts"
+      ],
+      "../../../src/model/localization-options.ts": [
+        "../../../src/model/price-formatter-fn.ts",
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/magnet.ts": [
+        "../../../src/model/crosshair.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/pane.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/time-scale.ts",
+        "./helpers/idestroyable.d.ts",
+        "./helpers/isubscription.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/plot-data.ts": [
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/plot-list.ts": [
+        "../../../src/model/plot-data.ts",
+        "../../../src/model/time-data.ts",
+        "./helpers/nominal.d.ts"
+      ],
+      "../../../src/model/point.ts": [
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/model/price-data-source.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/data-source.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/time-data.ts",
+        "./formatters/iformatter.d.ts"
+      ],
+      "../../../src/model/price-formatter-fn.ts": [
+        "../../../src/model/bar.ts"
+      ],
+      "../../../src/model/price-line-options.ts": [
+        "../../../src/renderers/draw-line.ts"
+      ],
+      "../../../src/model/price-range-impl.ts": [
+        "../../../src/model/series-options.ts"
+      ],
+      "../../../src/model/price-scale-conversions.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/price-range-impl.ts"
+      ],
+      "../../../src/model/price-scale.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/layout-options.ts",
+        "../../../src/model/localization-options.ts",
+        "../../../src/model/price-range-impl.ts",
+        "../../../src/model/range-impl.ts",
+        "../../../src/model/time-data.ts",
+        "./formatters/iformatter.d.ts",
+        "./helpers/isubscription.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/price-tick-mark-builder.ts": [
+        "../../../src/model/price-scale.ts"
+      ],
+      "../../../src/model/series-bar-colorer.ts": [
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/series-data.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/plot-data.ts",
+        "../../../src/model/plot-list.ts",
+        "../../../src/model/time-data.ts",
+        "./helpers/nominal.d.ts"
+      ],
+      "../../../src/model/series-options.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/price-formatter-fn.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/renderers/draw-line.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/series.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/custom-price-line.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/model/palette.ts",
+        "../../../src/model/pane.ts",
+        "../../../src/model/plot-data.ts",
+        "../../../src/model/plot-list.ts",
+        "../../../src/model/price-data-source.ts",
+        "../../../src/model/price-line-options.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series-markers.ts",
+        "../../../src/model/series-options.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts",
+        "./formatters/iformatter.d.ts",
+        "./helpers/idestroyable.d.ts"
+      ],
+      "../../../src/model/sort-sources.ts": [
+        "../../../src/model/idata-source.ts"
+      ],
+      "../../../src/model/tick-marks.ts": [
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/time-data.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/range-impl.ts",
+        "./helpers/nominal.d.ts"
+      ],
+      "../../../src/model/time-points.ts": [
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/time-scale-visible-range.ts": [
+        "../../../src/model/range-impl.ts",
+        "../../../src/model/time-data.ts"
+      ],
+      "../../../src/model/time-scale.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/localization-options.ts",
+        "../../../src/model/range-impl.ts",
+        "../../../src/model/tick-marks.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-points.ts",
+        "./helpers/isubscription.d.ts",
+        "./helpers/strict-type-checks.d.ts"
+      ],
+      "../../../src/model/watermark.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/data-source.ts",
+        "../../../src/renderers/watermark-renderer.ts",
+        "../../../src/views/pane/ipane-view.ts"
+      ],
+      "../../../src/renderers/area-renderer.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/line-renderer.ts",
+        "../../../src/renderers/scaled-renderer.ts"
+      ],
+      "../../../src/renderers/bars-renderer.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/candlesticks-renderer.ts": [
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/bars-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/composite-renderer.ts": [
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/crosshair-renderer.ts": [
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/draw-line.ts": [
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/renderers/grid-renderer.ts": [
+        "../../../src/model/price-scale.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/histogram-renderer.ts": [
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/horizontal-line-renderer.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/ipane-renderer.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/renderers/iprice-axis-view-renderer.ts": [
+        "../../../src/model/text-width-cache.ts",
+        "../../../src/renderers/draw-line.ts"
+      ],
+      "../../../src/renderers/itime-axis-view-renderer.ts": [
+        "../../../src/model/text-width-cache.ts"
+      ],
+      "../../../src/renderers/line-renderer.ts": [
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/draw-line.ts",
+        "../../../src/renderers/scaled-renderer.ts"
+      ],
+      "../../../src/renderers/marks-renderer.ts": [
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/line-renderer.ts",
+        "../../../src/renderers/scaled-renderer.ts"
+      ],
+      "../../../src/renderers/price-axis-renderer-options-provider.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts"
+      ],
+      "../../../src/renderers/price-axis-view-renderer.ts": [
+        "../../../src/model/text-width-cache.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts"
+      ],
+      "../../../src/renderers/scaled-renderer.ts": [
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/renderers/series-markers-arrow.ts": [
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/renderers/series-markers-circle.ts": [
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/renderers/series-markers-renderer.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/coordinate.ts",
+        "../../../src/model/series-markers.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/scaled-renderer.ts"
+      ],
+      "../../../src/renderers/series-markers-square.ts": [
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/renderers/series-markers-text.ts": [
+        "../../../src/model/coordinate.ts"
+      ],
+      "../../../src/renderers/series-markers-utils.ts": [
+        "../../../src/model/series-markers.ts"
+      ],
+      "../../../src/renderers/time-axis-view-renderer.ts": [
+        "../../../src/renderers/itime-axis-view-renderer.ts"
+      ],
+      "../../../src/renderers/walk-line.ts": [
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/draw-line.ts"
+      ],
+      "../../../src/renderers/watermark-renderer.ts": [
+        "../../../src/renderers/scaled-renderer.ts"
+      ],
+      "../../../src/views/pane/area-pane-view.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/line-renderer.ts",
+        "../../../src/views/pane/line-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/bars-pane-view-base.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/renderers/bars-renderer.ts",
+        "../../../src/views/pane/series-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/bars-pane-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/bars-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/bars-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/candlesticks-pane-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series-data.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/candlesticks-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/bars-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/crosshair-marks-pane-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/crosshair.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts"
+      ],
+      "../../../src/views/pane/crosshair-pane-view.ts": [
+        "../../../src/model/crosshair.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/ipane-view.ts"
+      ],
+      "../../../src/views/pane/custom-price-line-pane-view.ts": [
+        "../../../src/model/custom-price-line.ts",
+        "../../../src/model/series.ts",
+        "../../../src/views/pane/series-horizontal-line-pane-view.ts"
+      ],
+      "../../../src/views/pane/grid-pane-view.ts": [
+        "../../../src/model/pane.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts"
+      ],
+      "../../../src/views/pane/histogram-pane-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/series-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/ipane-view.ts": [
+        "../../../src/model/coordinate.ts",
+        "../../../src/renderers/ipane-renderer.ts"
+      ],
+      "../../../src/views/pane/iupdatable-pane-view.ts": [
+        "../../../src/views/pane/ipane-view.ts"
+      ],
+      "../../../src/views/pane/line-pane-view-base.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-bar-colorer.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/views/pane/series-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/line-pane-view.ts": [
+        "../../../src/model/bar.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/renderers/line-renderer.ts",
+        "../../../src/views/pane/line-pane-view-base.ts"
+      ],
+      "../../../src/views/pane/pane-price-axis-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/iprice-data-source.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/ipane-view.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts"
+      ],
+      "../../../src/views/pane/series-horizontal-base-line-pane-view.ts": [
+        "../../../src/model/series.ts",
+        "../../../src/views/pane/series-horizontal-line-pane-view.ts"
+      ],
+      "../../../src/views/pane/series-horizontal-line-pane-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series.ts",
+        "../../../src/renderers/horizontal-line-renderer.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/ipane-view.ts"
+      ],
+      "../../../src/views/pane/series-markers-pane-view.ts": [
+        "../../../src/model/autoscale-info-impl.ts",
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts"
+      ],
+      "../../../src/views/pane/series-pane-view-base.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/model/series-options.ts",
+        "../../../src/model/series.ts",
+        "../../../src/model/time-data.ts",
+        "../../../src/model/time-scale.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts"
+      ],
+      "../../../src/views/pane/series-price-line-pane-view.ts": [
+        "../../../src/model/series.ts",
+        "../../../src/views/pane/series-horizontal-line-pane-view.ts"
+      ],
+      "../../../src/views/pane/watermark-pane-view.ts": [
+        "../../../src/model/watermark.ts",
+        "../../../src/renderers/ipane-renderer.ts",
+        "../../../src/views/pane/iupdatable-pane-view.ts"
+      ],
+      "../../../src/views/price-axis/crosshair-price-axis-view.ts": [
+        "../../../src/model/crosshair.ts",
+        "../../../src/model/price-scale.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/views/price-axis/price-axis-view.ts"
+      ],
+      "../../../src/views/price-axis/custom-price-line-price-axis-view.ts": [
+        "../../../src/model/custom-price-line.ts",
+        "../../../src/model/series.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/views/price-axis/price-axis-view.ts"
+      ],
+      "../../../src/views/price-axis/iprice-axis-view.ts": [
+        "../../../src/renderers/iprice-axis-view-renderer.ts"
+      ],
+      "../../../src/views/price-axis/price-axis-view.ts": [
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/views/price-axis/iprice-axis-view.ts"
+      ],
+      "../../../src/views/price-axis/series-price-axis-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/series.ts",
+        "../../../src/renderers/iprice-axis-view-renderer.ts",
+        "../../../src/views/price-axis/price-axis-view.ts"
+      ],
+      "../../../src/views/time-axis/crosshair-time-axis-view.ts": [
+        "../../../src/model/chart-model.ts",
+        "../../../src/model/crosshair.ts",
+        "../../../src/renderers/time-axis-view-renderer.ts",
+        "../../../src/views/time-axis/time-axis-view.ts"
+      ],
+      "../../../src/views/time-axis/time-axis-view.ts": [
+        "../../../src/renderers/time-axis-view-renderer.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./formatters/date-formatter.d.ts",
+      "./formatters/date-time-formatter.d.ts",
+      "./formatters/iformatter.d.ts",
+      "./formatters/percentage-formatter.d.ts",
+      "./formatters/price-formatter.d.ts",
+      "./formatters/volume-formatter.d.ts",
+      "./helpers/algorithms.d.ts",
+      "./helpers/assertions.d.ts",
+      "./helpers/canvas-helpers.d.ts",
+      "./helpers/color.d.ts",
+      "./helpers/delegate.d.ts",
+      "./helpers/idestroyable.d.ts",
+      "./helpers/isubscription.d.ts",
+      "./helpers/make-font.d.ts",
+      "./helpers/mathex.d.ts",
+      "./helpers/nominal.d.ts",
+      "./helpers/strict-type-checks.d.ts",
+      "../../../node_modules/tslib/tslib.d.ts",
+      "../../../node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../src/model/autoscale-info-impl.ts",
+      "../../../src/model/bar.ts",
+      "../../../src/model/chart-model.ts",
+      "../../../src/model/coordinate.ts",
+      "../../../src/model/crosshair.ts",
+      "../../../src/model/custom-price-line.ts",
+      "../../../src/model/data-source.ts",
+      "../../../src/model/default-price-scale.ts",
+      "../../../src/model/default-tick-mark-formatter.ts",
+      "../../../src/model/formatted-labels-cache.ts",
+      "../../../src/model/grid.ts",
+      "../../../src/model/idata-source.ts",
+      "../../../src/model/invalidate-mask.ts",
+      "../../../src/model/iprice-data-source.ts",
+      "../../../src/model/layout-options.ts",
+      "../../../src/model/localization-options.ts",
+      "../../../src/model/magnet.ts",
+      "../../../src/model/palette.ts",
+      "../../../src/model/pane.ts",
+      "../../../src/model/plot-data.ts",
+      "../../../src/model/plot-list.ts",
+      "../../../src/model/point.ts",
+      "../../../src/model/price-data-source.ts",
+      "../../../src/model/price-formatter-fn.ts",
+      "../../../src/model/price-line-options.ts",
+      "../../../src/model/price-range-impl.ts",
+      "../../../src/model/price-scale-conversions.ts",
+      "../../../src/model/price-scale.ts",
+      "../../../src/model/price-tick-mark-builder.ts",
+      "../../../src/model/price-tick-span-calculator.ts",
+      "../../../src/model/range-impl.ts",
+      "../../../src/model/series-bar-colorer.ts",
+      "../../../src/model/series-data.ts",
+      "../../../src/model/series-markers.ts",
+      "../../../src/model/series-options.ts",
+      "../../../src/model/series.ts",
+      "../../../src/model/sort-sources.ts",
+      "../../../src/model/text-width-cache.ts",
+      "../../../src/model/tick-marks.ts",
+      "../../../src/model/time-data.ts",
+      "../../../src/model/time-points.ts",
+      "../../../src/model/time-scale-visible-range.ts",
+      "../../../src/model/time-scale.ts",
+      "../../../src/model/watermark.ts",
+      "../../../src/renderers/area-renderer.ts",
+      "../../../src/renderers/bars-renderer.ts",
+      "../../../src/renderers/candlesticks-renderer.ts",
+      "../../../src/renderers/composite-renderer.ts",
+      "../../../src/renderers/crosshair-renderer.ts",
+      "../../../src/renderers/draw-line.ts",
+      "../../../src/renderers/grid-renderer.ts",
+      "../../../src/renderers/histogram-renderer.ts",
+      "../../../src/renderers/horizontal-line-renderer.ts",
+      "../../../src/renderers/ipane-renderer.ts",
+      "../../../src/renderers/iprice-axis-view-renderer.ts",
+      "../../../src/renderers/itime-axis-view-renderer.ts",
+      "../../../src/renderers/line-renderer.ts",
+      "../../../src/renderers/marks-renderer.ts",
+      "../../../src/renderers/optimal-bar-width.ts",
+      "../../../src/renderers/price-axis-renderer-options-provider.ts",
+      "../../../src/renderers/price-axis-view-renderer.ts",
+      "../../../src/renderers/scaled-renderer.ts",
+      "../../../src/renderers/series-markers-arrow.ts",
+      "../../../src/renderers/series-markers-circle.ts",
+      "../../../src/renderers/series-markers-renderer.ts",
+      "../../../src/renderers/series-markers-square.ts",
+      "../../../src/renderers/series-markers-text.ts",
+      "../../../src/renderers/series-markers-utils.ts",
+      "../../../src/renderers/time-axis-view-renderer.ts",
+      "../../../src/renderers/walk-line.ts",
+      "../../../src/renderers/watermark-renderer.ts",
+      "../../../src/typings/_build-time-constants/index.d.ts",
+      "../../../src/typings/_global-types/index.d.ts",
+      "../../../src/views/pane/area-pane-view.ts",
+      "../../../src/views/pane/bars-pane-view-base.ts",
+      "../../../src/views/pane/bars-pane-view.ts",
+      "../../../src/views/pane/candlesticks-pane-view.ts",
+      "../../../src/views/pane/crosshair-marks-pane-view.ts",
+      "../../../src/views/pane/crosshair-pane-view.ts",
+      "../../../src/views/pane/custom-price-line-pane-view.ts",
+      "../../../src/views/pane/grid-pane-view.ts",
+      "../../../src/views/pane/histogram-pane-view.ts",
+      "../../../src/views/pane/ipane-view.ts",
+      "../../../src/views/pane/iupdatable-pane-view.ts",
+      "../../../src/views/pane/line-pane-view-base.ts",
+      "../../../src/views/pane/line-pane-view.ts",
+      "../../../src/views/pane/pane-price-axis-view.ts",
+      "../../../src/views/pane/series-horizontal-base-line-pane-view.ts",
+      "../../../src/views/pane/series-horizontal-line-pane-view.ts",
+      "../../../src/views/pane/series-markers-pane-view.ts",
+      "../../../src/views/pane/series-pane-view-base.ts",
+      "../../../src/views/pane/series-price-line-pane-view.ts",
+      "../../../src/views/pane/watermark-pane-view.ts",
+      "../../../src/views/price-axis/crosshair-price-axis-view.ts",
+      "../../../src/views/price-axis/custom-price-line-price-axis-view.ts",
+      "../../../src/views/price-axis/iprice-axis-view.ts",
+      "../../../src/views/price-axis/price-axis-view.ts",
+      "../../../src/views/price-axis/series-price-axis-view.ts",
+      "../../../src/views/time-axis/crosshair-time-axis-view.ts",
+      "../../../src/views/time-axis/time-axis-view.ts"
+    ]
+  },
+  "version": "3.9.3"
+}

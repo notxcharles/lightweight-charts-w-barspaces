@@ -1,6 +1,6 @@
 /*!
  * @license
- * TradingView Lightweight Charts v2.1.0-dev+202006010203
+ * TradingView Lightweight Charts v2.1.0-dev+202006010241
  * Copyright (c) 2019 TradingView, Inc.
  * Licensed under Apache License 2.0 https://www.apache.org/licenses/LICENSE-2.0
  */
@@ -11357,7 +11357,7 @@ function createChart(container, options) {
 
 /// <reference types="_build-time-constants" />
 function version() {
-    return "2.1.0-dev+202006010203";
+    return "2.1.0-dev+202006010241";
 }
 
 export { CrosshairMode, LineStyle, LineType, PriceLineSource, PriceScaleMode, TickMarkType, createChart, isBusinessDay, isUTCTimestamp, version };
