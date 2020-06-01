@@ -1,0 +1,36 @@
+import { IDestroyable } from '../helpers/idestroyable';
+import { DeepPartial } from '../helpers/strict-type-checks';
+import { ChartModel } from '../model/chart-model';
+import { Coordinate } from '../model/coordinate';
+import { LogicalRange, Range } from '../model/time-data';
+import { TimeScaleOptions } from '../model/time-scale';
+import { Time } from './data-consumer';
+import { ITimeScaleApi, LogicalRangeChangeEventHandler, TimeRange, TimeRangeChangeEventHandler } from './itime-scale-api';
+export declare class TimeScaleApi implements ITimeScaleApi, IDestroyable {
+    private _model;
+    private readonly _timeRangeChanged;
+    private readonly _logicalRangeChanged;
+    constructor(model: ChartModel);
+    destroy(): void;
+    scrollPosition(): number;
+    getbarSpacing(): number;
+    scrollToPosition(position: number, animated: boolean): void;
+    scrollToRealTime(): void;
+    getVisibleRange(): TimeRange | null;
+    setVisibleRange(range: TimeRange): void;
+    getVisibleLogicalRange(): LogicalRange | null;
+    setVisibleLogicalRange(range: Range<number>): void;
+    resetTimeScale(): void;
+    fitContent(): void;
+    timeToCoordinate(time: Time): Coordinate | null;
+    coordinateToTime(x: number): Time | null;
+    subscribeVisibleTimeRangeChange(handler: TimeRangeChangeEventHandler): void;
+    unsubscribeVisibleTimeRangeChange(handler: TimeRangeChangeEventHandler): void;
+    subscribeVisibleLogicalRangeChange(handler: LogicalRangeChangeEventHandler): void;
+    unsubscribeVisibleLogicalRangeChange(handler: LogicalRangeChangeEventHandler): void;
+    applyOptions(options: DeepPartial<TimeScaleOptions>): void;
+    options(): Readonly<TimeScaleOptions>;
+    private _timeScale;
+    private _onVisibleBarsChanged;
+    private _onVisibleLogicalRangeChanged;
+}
